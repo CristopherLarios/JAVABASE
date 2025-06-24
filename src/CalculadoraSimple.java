@@ -17,6 +17,9 @@ public class CalculadoraSimple {
         // Resta
         int resta = a - b;
         System.out.println("Resta: " + resta);
+        
+        int multiplicacion = a * b;
+        System.out.println("multiplicacion" + multiplicacion);
 
         scanner.close();
 
