@@ -18,6 +18,19 @@ public class CalculadoraSimple {
         int resta = a - b;
         System.out.println("Resta: " + resta);
 
+        //multiplicaion abi
+        int mult = a * b;
+        System.out.println("multiplicacion: " +mult);
+
+            //Division daviana 
+        if (a != 0 && b != 0) {
+            double division = (double) a / b;
+            System.out.println("División: " + division);
+        } else {
+            System.out.println("Error: No se puede dividir entre 0.");
+        }
+
+
         scanner.close();
 
         
