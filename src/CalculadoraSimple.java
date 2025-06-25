@@ -20,6 +20,13 @@ public class CalculadoraSimple {
 
         scanner.close();
 
-        
+
+        if (b !=0){
+        //Division
+        double division = a / b;
+        System.out.println("Division: " + division);
+        } else {
+            System.out.println("Operacion no valida");
+        }
     }
 }
