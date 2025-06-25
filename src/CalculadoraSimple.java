@@ -18,6 +18,14 @@ public class CalculadoraSimple {
         int resta = a - b;
         System.out.println("Resta: " + resta);
 
+     //Division
+     int divi= a/b;-
+     if (divi<=0){
+        System.out.printl("no se podra dividir")
+     }else  {
+        System.out.println("Division: " + divi)
+     }
+
         scanner.close();
 
         
