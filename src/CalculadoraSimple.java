@@ -1,3 +1,5 @@
+package JAVABASE.src;
+
 import java.util.Scanner;
 
 public class CalculadoraSimple {
