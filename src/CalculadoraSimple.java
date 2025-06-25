@@ -20,6 +20,12 @@ public class CalculadoraSimple {
 
         scanner.close();
 
+        // multiplicacion 
+
+        int multiplicacion=a*b;
+        System.out.println("Multiplicacion "+multiplicacion);
+    
+
         
     }
 }
