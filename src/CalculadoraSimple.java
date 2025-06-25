@@ -24,6 +24,19 @@ public class CalculadoraSimple {
 
 
         
+
+
+
+
+
+        //Division
+        int div = a/b;
+        if (div <=0){
+        System.out.println("La division es " + div);
+        } else  {
+        System.out.println("No se puede dividir entre cero");
+        } 
+
         scanner.close();
 
         
