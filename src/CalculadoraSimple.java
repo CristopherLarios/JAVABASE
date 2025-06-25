@@ -4,22 +4,28 @@ public class CalculadoraSimple {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Ingrese el primer número:");
+        System.out.print("Ingrese el primer número: ");
         int a = scanner.nextInt();
 
-        System.out.println("Ingrese el segundo número:");
+        System.out.print("Ingrese el segundo número: ");
         int b = scanner.nextInt();
 
-        // Suma
-        int suma = a + b;
-        System.out.println("Suma: " + suma);
+        System.out.println("Elija la operación: 1) Suma  2) Resta  3) Multiplicación");
+        int opcion = scanner.nextInt();
 
-        // Resta
-        int resta = a - b;
-        System.out.println("Resta: " + resta);
+        if (opcion == 1) {
+            int suma = a + b;
+            System.out.println("Suma: " + suma);
+        } else if (opcion == 2) {
+            int resta = a - b;
+            System.out.println("Resta: " + resta);
+        } else if (opcion == 3) {
+            int multiplicacion = a * b;
+            System.out.println("Multiplicación: " + multiplicacion);
+        } else {
+            System.out.println("Opción no válida.");
+        }
 
         scanner.close();
-
-        
     }
 }
