@@ -23,7 +23,7 @@ public class CalculadoraSimple {
      if (divi<=0){
         System.out.printl("no se podra dividir")
      }else  {
-        System.out.println("Division: " + divi)
+        System.out.println("Division es: " + divi)
      }
 
         scanner.close();
