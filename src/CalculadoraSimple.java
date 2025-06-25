@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class CalculadoraSimple {
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -18,7 +19,21 @@ public class CalculadoraSimple {
         int resta = a - b;
         System.out.println("Resta: " + resta);
 
-        scanner.close();
+        //multiplicacion
+        int multiplicacion = a * b;
+        System.out.println("Multiplicacion: " + multiplicacion);
+
+               //division
+        if (b!=0){
+            int divicion = a/b; 
+         System.out.println("la divicion entre "+a+" / "+b+" = "+divicion); 
+        } else {
+           System.out.println(" no se puede dividir entre 0 ");
+        }
+
+        Scanner close;
+
+
 
         
     }
