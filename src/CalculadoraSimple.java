@@ -18,6 +18,22 @@ public class CalculadoraSimple {
         int resta = a - b;
         System.out.println("Resta: " + resta);
 
+        //multiplicacion
+        int mult= a * b;
+        System.out.println("mult: "+ mult);        
+
+
+
+
+
+
+
+        //Isaac agrega la division
+        if (b!=0) {
+            System.out.println("Division: "+ a/b);
+        } else {
+            System.out.println("No se puede dividir entre cero");
+        }
         scanner.close();
 
         
