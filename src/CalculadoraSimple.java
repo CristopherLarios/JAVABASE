@@ -18,6 +18,18 @@ public class CalculadoraSimple {
         int resta = a - b;
         System.out.println("Resta: " + resta);
 
+        //multiplicacion 
+        int multiplicacion =a*b;
+        System.out.println ("multipicacion:" + multipicacion");
+
+        //division 
+
+        if /(b !=0){
+            double division = (double) a /b;
+            system.out.println ("division: " + division)");
+            }else {
+                System.out.println( "error: Division por cero noo permitida ");
+            }  
         scanner.close();
 
         
