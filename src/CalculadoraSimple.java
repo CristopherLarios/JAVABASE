@@ -19,12 +19,11 @@ public class CalculadoraSimple {
         System.out.println("Resta: " + resta);
 
         //División
-        if 
-        int division = a/b;
-        if (divison:<=0) {
-            System.out.println("no se puede dividir");
+        int divi = a/b;
+        if (divi<=0) {
+            System.out.println("No se puede dividir");
             
-        } else {System.out.println("División: " + divison);
+        } else {System.out.println("División: " + divi);
             
         }
         
