@@ -17,7 +17,7 @@ public class CalculadoraSimple {
         // Resta
         int resta = a - b;
         System.out.println("Resta: " + resta);
-
+        
         //División
         int divi = a/b;
         if (divi<=0) {
